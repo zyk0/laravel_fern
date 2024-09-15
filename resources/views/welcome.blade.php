@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h3 class="fw-light text-white animated slideInRight">Natural & Organic</h3>
+                    <h3 class="fw-light text-white animated slideInRight">Perfect </h3>
                     <h1 class="display-4 text-white animated slideInRight">Hair <span class="fw-light text-dark">Fern</span> For Fern</h1>
                     <p class="text-white mb-4 animated slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Etiam feugiat rutrum lectus, sed auctor ex malesuada id. Orci varius natoque penatibus et
@@ -169,8 +169,8 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white text-center p-4">
                         <div class="border p-4">
-                            <p class="mb-2">Natural & Organic Fern</p>
-                            <h2 class="fw-bold text-uppercase mb-4">Deals of the Day</h2>
+                            <p class="mb-2">Perfect  Fern</p>
+                            <h2 class="fw-bold text-uppercase mb-4">Price</h2>
                             <h1 class="display-4 text-primary mb-4">$99.99</h1>
                             <h5>Fresh Organic Fern</h5>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -216,7 +216,7 @@
                                 <i class="fa fa-check fa-2x text-primary"></i>
                             </div>
                             <div class="ps-3">
-                                <h5>Natural & Organic</h5>
+                                <h5>Perfect </h5>
                                 <hr class="w-25 bg-primary my-2">
                                 <span>Lorem ipsum dolor sit amet adipiscing elit aliquet.</span>
                             </div>
@@ -295,7 +295,7 @@
     <div class="container-fluid how-to-use bg-primary my-5 py-5">
         <div class="container text-white py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="text-white mb-3"><span class="fw-light text-dark">How To Use Our</span> Natural & Organic
+                <h1 class="text-white mb-3"><span class="fw-light text-dark">How To Use Our</span> Perfect 
                     <span class="fw-light text-dark">Hair Fern</span></h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
             </div>

@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h3 class="fw-light text-white animated slideInRight">Natural & Organic</h3>
+                    <h3 class="fw-light text-white animated slideInRight">Perfect </h3>
 					
                     <h1 class="display-4 text-white animated slideInRight">
 					<span class="">Fern</span>
@@ -71,7 +71,7 @@
 					<p class="green-3"> {{ substr( "$item->description", 10, 44) }} </p>
 					</p>
                     <a href="/"
-					class="btn btn-dark py-2 px-4 me-3 animated slideInRight">На стартовую страницу</a>
+					class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Стартовая</a>
                     <a href="/product" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Каталог</a>
                 </div>
                 <div class="col-lg-6">

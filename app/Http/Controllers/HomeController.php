@@ -7,9 +7,23 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        $products = Product::where('id', 5)->first();
 		
-		echo $products->title.' ('.$products->price.')';
+		$firstid = Product::first('id', 'asc')->first();		
+		$lastid =  Product::latest('id', 'desc')->first();
+
+		$randomproduct = rand($firstid->id, $lastid->id); //рандомный id продукта из таблицы
+        $products = Product::where('id', $randomproduct)->first();
+		
+		$oneproduct = $products;
+		
+		return view('home.index',[
+            'oneproduct' => $oneproduct,
+			'firstid' => $firstid->id,
+			'lastid' => $lastid->id,
+        ]);
+		
+		//echo $products->title.' ('.$products->price.')';
+		
 		//$products = Product::all();
 		//dump($products);
 		/*
@@ -19,6 +33,6 @@ class HomeController extends Controller
 		}
 		*/
 		
-        return view('home.index');
+        //return view('home.index');
     }
 }
