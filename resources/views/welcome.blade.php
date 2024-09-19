@@ -151,7 +151,7 @@
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est.</p>
                     <p class="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
                         labore lorem sit. Sanctus clita duo justo et tempor.</p>
-                    <a class="btn btn-primary py-2 px-4" href="">Shop Now</a>
+                    <a class="btn btn-primary py-2 px-4" href="">Заказ</a>
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
                                     <h1 class="display-6" id="cdt-seconds"></h1>
                                 </div>
                             </div>
-                            <a class="btn btn-primary py-2 px-4" href="">Shop Now</a>
+                            <a class="btn btn-primary py-2 px-4" href="">Заказ</a>
                         </div>
                     </div>
                 </div>
