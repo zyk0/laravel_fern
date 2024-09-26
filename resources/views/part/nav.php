@@ -15,7 +15,21 @@
                         <a href="/about" class="nav-item nav-link">About</a>
                         <a href="/product" class="nav-item nav-link">Products</a>
 						<a href="/feature" class="nav-item nav-link">Features</a>
+						
 						<!--
+						меню на категории 
+						
+						<div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">dropdown-menu 0</a>
+                            <div class="dropdown-menu bg-light mt-2">
+							@foreach($categories as $category)
+                                <a href="{{route('showCategory')}}">{{$category->title}}</a>
+							@endforeach	
+                            </div>
+                        </div>
+						-->
+
+						<!--				
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">dropdown-menu 0</a>
                             <div class="dropdown-menu bg-light mt-2">
@@ -26,9 +40,10 @@
                             </div>
                         </div>
 						-->
+						
                         <a href="/article" class="nav-item nav-link">Article</a>
                     </div>
-                    <a href="" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block">Shop Now</a>
+                    <a href="" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block">Заказ</a>
                 </div>
             </nav>
         </div>

@@ -522,8 +522,9 @@
 	-->
     <!-- Blog End -->
 
-
+	@include('part.letter')
     <!-- Newsletter Start -->
+	<!--
     <div class="container-fluid newsletter bg-primary py-5 my-5">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -542,6 +543,7 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Newsletter End -->
 
 

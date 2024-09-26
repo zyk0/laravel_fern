@@ -50,10 +50,16 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href=""><?php echo 'PHP '. PHP_VERSION  ?></a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FAQs</a>
+                            <a href=""><?php echo 'PHP: '. PHP_VERSION  ?></a>
+                            <a href="">
+							<?php 
+							$laravel = app();
+							$version = $laravel::VERSION;
+							echo 'Laravel: '.$version;
+							?>
+							</a>
+                            <a href=""></a>
+                            <a href="">fernnn</a>
                         </div>
                     </div>
                 </div>
