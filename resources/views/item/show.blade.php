@@ -70,9 +70,11 @@
 					<p class="green-2">{{$item->price}}</p>
 					<p class="green-3"> {{ substr( "$item->description", 10, 44) }} </p>
 					</p>
-                    <a href="/"
-					class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Стартовая</a>
+                    <a href="/"        class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Стартовая</a>
                     <a href="/product" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Каталог</a>
+					
+					
+					<a href="/invoice" target="_blank" class="btn btn-outline-dark py-2 px-4 animated slideInRight">invoice </a>
                 </div>
                 <div class="col-lg-6">
 				        @php
