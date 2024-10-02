@@ -56,25 +56,26 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h3 class="fw-light text-white animated slideInRight">Perfect </h3>
+                    <h3 class="fw-light text-white  ">Perfect </h3>
 					
-                    <h1 class="display-4 text-white animated slideInRight">
-					<span class="">Fern</span>
-					<span class="fw-light text-dark">  Fern</span>
-					<span class="">{{$item->title}}</span>
-					Fern
-					</h1>
+                    <h4 class="display-4 text-white  ">					
+						<span class=""> </span>
+						<span class="fw-light text-dark">  Fern</span>
+						<span class="">{{$item->title}}</span>
+					</h4>
 					
-                    <p class="text-white mb-4 animated slideInRight">
-					<p class="green-1">{{$item->id}}</p>
-					<p class="green-2">{{$item->price}}</p>
-					<p class="green-3"> {{ substr( "$item->description", 10, 44) }} </p>
+                    <p class="text-white mb-4  ">
+					<p> товар доступен с   {{ $day->translatedFormat('d') }} {{ $day->translatedFormat('F') }}</p>
+					<p> товар доступен до  {{ $future->translatedFormat('d') }} {{ $day->translatedFormat('F') }}</p>
+					<p class="green-1">id: {{$item->id}}</p>
+					<p class="green-2">price: {{$item->price}}</p>
+					<p class="green-3">description: {{ substr( "$item->description", 10, 22) }} </p>
 					</p>
-                    <a href="/"        class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Стартовая</a>
-                    <a href="/product" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Каталог</a>
+                    <a href="/"        class="btn btn-dark py-2 px-4 me-3  ">Стартовая</a>
+                    <a href="/product" class="btn btn-outline-dark py-2 px-4  ">Каталог</a>
 					
 					
-					<a href="/invoice" target="_blank" class="btn btn-outline-dark py-2 px-4 animated slideInRight">invoice </a>
+					<a href="/invoice" target="_blank" class="btn btn-outline-dark py-2 px-4  ">invoice </a>
                 </div>
                 <div class="col-lg-6">
 				        @php
@@ -86,7 +87,7 @@
                             }
                         @endphp
 						
-				    <img class="img-fluid animated pulse infinite" src="/img/{{$image}}" alt="{{$item->title}}">	
+				    <img class="img-fluid" src="/img/{{$image}}" alt="{{$item->title}}">	
                 </div>
             </div>
         </div>

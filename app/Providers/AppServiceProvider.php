@@ -26,7 +26,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //Carbon::setLocale('ru_RU');
+		
 		$categories = Category::orderBy('id')->get();
 
         View::share([

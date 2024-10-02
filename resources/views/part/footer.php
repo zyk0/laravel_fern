@@ -1,5 +1,3 @@
-
-	
     <div class="container-fluid bg-white footer">
         <div class="container py-5">
             <div class="row g-5">
@@ -45,8 +43,6 @@
                 <div class="row">
 				    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; gallery <a class="border-bottom" href="#">Fern</a>
-						
-						
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
@@ -58,7 +54,6 @@
 							echo 'Laravel: '.$version;
 							?>
 							</a>
-                            <a href=""></a>
                             <a href="">fernnn</a>
                         </div>
                     </div>
