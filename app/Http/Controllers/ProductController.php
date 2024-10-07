@@ -27,6 +27,17 @@ class ProductController extends Controller
 		]);
 	}
 	
-	public function showCategory(){}
+	//public function showCategory(){}
+	
+	public function search(Request $request){ 
+		$s = $request->s;	
+		//dd($s);
+		//$products = Product::where('description', 'LIKE', "%{$s}%")->get();
+		$products = Product::where('description', 'LIKE', "%{$s}%", 'AND', '!=', '')->get();
+		//dd($products);
+		return view('product.index', [
+		    'products' => $products
+		]);
+	}
 		
 }

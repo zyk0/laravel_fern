@@ -74,8 +74,11 @@
                 <h1 class="text-primary mb-3"><span class="fw-light text-dark">Fern</span>  Products</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
             </div>
+			
             <div class="row g-4">
 			<!-- start item -->
+			
+			
 			<?php foreach($products as $product): ?>
 							<!-- -->
                             @php
@@ -118,6 +121,8 @@
                 </div>
 				
 			<?php endforeach ?>	
+			
+			
 				<!-- item finish -->
 				<!--
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
@@ -232,16 +237,29 @@
                         <a href="" class="btn btn-outline-primary px-3">Add To Cart</a>
                     </div>
                 </div>
-				-->
+				
                 <div class="text-center">
-                    <!-- <a class="btn btn-primary py-2 px-4" href="">Load More Products</a> -->
+                    <a class="btn btn-primary py-2 px-4" href="">Load More Products</a>
 					<span></span>
 				</div>
             </div>
         </div>
     </div>
+	-->
     <!-- Product End -->
+	
 
+	
+	@include('part.spanel')
+	<div>
+		<?php foreach($products as $product): ?>
+		@if($products)
+			<span>по запросу найден: <b><small>{{ $product->title }}</small></b> </br>
+		@else
+			<span> <b> не найдено</b> </br>
+		@endif
+		<?php endforeach ?>	
+	</div>
 
     <!-- Newsletter Start -->
 	<!--

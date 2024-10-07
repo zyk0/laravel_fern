@@ -4,7 +4,7 @@
 <!-- @ include('part.head') --> 
 <head>
     <meta charset="utf-8">
-    <title>index</title>
+    <title>search</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -88,11 +88,14 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
                     <h3 class="fw-light text-white animated slideInRight">Perfect </h3>
-                    <h1 class="display-4 text-white animated slideInRight"><span class="fw-light text-dark"> Count:   {{ $firstid }} - {{$lastid}} Fern</span>  </h1>
-					<p  class="display-4 text-white animated slideInRight">{{ $oneproduct->id }} <span class="fw-light text-dark">{{$oneproduct->title}}</span> </p>
-                    <p class="text-white mb-4 animated slideInRight">{{$oneproduct->description}}</p>
-                    <a href="/" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Стартовая</a>
-                    <a href="/product" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Каталог</a>
+                    <h1 class="display-4 text-white animated slideInRight">
+					<span class="fw-light text-dark"> Fern</span>  
+					</h1>
+					<p  class="display-4 text-white animated slideInRight">id
+					<span class="fw-light text-dark">titl</span> </p>
+                    <p class="text-white mb-4 animated slideInRight">descriptionp>
+                    <a href="/" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Старт</a>
+                    <a href="/product" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Кат</a>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid animated pulse infinite" src="img/start.jpg" alt="">
@@ -102,6 +105,19 @@
     </div>
     <!-- Hero End -->
 
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+				
+					<p>search </p>
+					<div class=""></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Feature Start -->
 	<!--
@@ -140,6 +156,7 @@
 
 
     <!-- About Start -->
+	<!--
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
@@ -157,10 +174,12 @@
             </div>
         </div>
     </div>
+	-->
     <!-- About End -->
 
 
     <!-- Deal Start -->
+	<!--
     <div class="container-fluid deal bg-primary my-5 py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
@@ -171,12 +190,12 @@
                     <div class="bg-white text-center p-4">
                         <div class="border p-4">
                             <p class="mb-2">Perfect  Fern</p>
-
-                            <h1 class="display-4 text-primary mb-4">$ <?php echo (rand(10,99));?>.<?php echo (rand(10,99));?></h1>
+                            <h2 class="fw-bold text-uppercase mb-4">Price </h2>
+                            <h1 class="display-4 text-primary mb-4">$99.99</h1>
                             <h5>Fresh Organic Fern</h5>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Etiam feugiat rutrum lectus sed auctor.</p>
-                            <!--
+                            
 							<div class="row g-0 cdt mb-4">
                                 <div class="col-3">
                                     <h1 class="display-6" id="cdt-days"></h1>
@@ -191,7 +210,7 @@
                                     <h1 class="display-6" id="cdt-seconds"></h1>
                                 </div>
                             </div>
-							-->
+							
                             <a class="btn btn-primary py-2 px-4" href="">Заказ</a>
                         </div>
                     </div>
@@ -199,10 +218,12 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Deal End -->
 
 
     <!-- Feature Start -->
+	<!--
     <div class="container-fluid py-5">
         <div class="container">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -291,6 +312,7 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Feature End -->
 
 
@@ -615,7 +637,6 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

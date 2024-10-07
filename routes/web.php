@@ -8,6 +8,7 @@ use App\Http\Controllers\FeatureController;  // for laravel 8
 use App\Http\Controllers\ItemController; 	// for laravel 8
 use App\Http\Controllers\ArticleController; 	// for laravel 8
 use App\Http\Controllers\InvoiceController; 	// for laravel 8
+use App\Http\Controllers\SearchController; 	// for laravel 8
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,19 +40,15 @@ Route::get('/{cat}/{product_id}', [ItemController::class, 'show'])->name('itemPr
 
 Route::get('/invoice', [InvoiceController::class, 'generate']);
 
-
 Route::get('/article', [ArticleController::class, 'index']);
 
+//Route::get('/search',  [SearchController::class, 'search'])->name('searchroute');
+Route::get('/search',  [ProductController::class, 'search'])->name('searchroute');
 
 //Route::get('/{cat}', [ProductController::class, 'showCategory'])->name('showCategory');
 //Route::get('/{cat}/{product_id}', [ProductController::class, 'show'])->name('showProduct');
 // отдельная страница для товара:
 // Route::get('/{cat}/{product_id}', 'ProductController@show')->name('showProduct');
-
-
-//Route::get('/home',  'HomeController@index'); // for laravel 6
-
-//Route::get('/product',  'ProductController@index'); // for laravel 6
 
 /*
 Route::get('/', function () {
