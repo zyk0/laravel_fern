@@ -1,0 +1,26 @@
+{
+	
+	"Name": "Имя",
+	"Email": "Почта",
+	"Password": "Пароль",
+	"Confirm Password": "Подтверждение пароля", 
+	"Already registered?": "Уже есть регистрация?",
+	"Log in": "Зайти",
+
+	"Remember me": "Запомнить",
+	"Forgot your password?": "Забыт пароль?",
+	"Register": "Регистрация",
+
+	"Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.": "Забыт пароль?",
+	"Email Password Reset Link": "Сброс пароля",
+
+	"You're logged in!": "Залогинен!",
+	"Dashboard": "Доска пользователя",
+	"Log out": "Выход",
+	"You're logged in!":"Вы залогинены!",
+	
+	"Whoops! Something went wrong.": "ошибочный пароль!",
+	"These credentials do not match our records.": "Эти учетные данные ошибочные.",
+	"Too many login attempts. Please try again in": "Много ошибочных попыток"
+
+}

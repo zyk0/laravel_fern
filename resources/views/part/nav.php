@@ -9,7 +9,7 @@
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link">Home</a>
                         <a href="/about" class="nav-item nav-link">About</a>
@@ -42,8 +42,14 @@
 						-->
 						
                         <a href="/article" class="nav-item nav-link">Article</a>
-                    </div>
-                    <a href="" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block">Заказ</a>
+						
+						<a href="/login"    class="nav-item nav-link" 
+							style="background-color: #03ab1f;padding: 0px 0px 0px 0px">Login</a>
+							
+						<a href="/register" class="nav-item nav-link" 
+							style="background-color: #03ab1f;padding: 0px 0px 0px 0px" >Register</a>
+
+                    </div>   
                 </div>
             </nav>
         </div>

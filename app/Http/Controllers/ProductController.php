@@ -15,7 +15,7 @@ class ProductController extends Controller
 			echo '<br>';
 			}
 		*/	
-		$products = Product::orderBy('price', 'desc')->take(8)->get();
+		$products = Product::orderBy('price', 'desc')->take(4)->get();
 		
 		//$paginate = 2;
 		//$products = Product::orderBy('id', 'asc')->paginate($paginate);

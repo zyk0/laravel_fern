@@ -1,52 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>welcome</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-	<link href="/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
+<!--
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- @ include('part.head') --> 
+<head>
+    <meta charset="utf-8">
+    <title>welcome Store Fernn</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+	<link href="/favicon.ico" rel="icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <!--
-	<div id="spinner"
+    <!-- Spinner Start 
+    <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-	-->
-    <!-- Spinner End -->
+    Spinner End -->
 
-
-    <!-- Navbar Start -->
+@include('part.nav')
+    <!-- Navbar Start 
     <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -59,17 +77,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="product.html" class="nav-item nav-link">Products</a>
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                        <a href="/about" class="nav-item nav-link">About</a>
+                        <a href="/product" class="nav-item nav-link">Products</a>
+						<a href="/feature" class="nav-item nav-link">Features</a>
                         <div class="nav-item dropdown">
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">dropdown-menu 0</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="#" class="dropdown-item">dropdown-menu 1</a>
-                                <a href="#" class="dropdown-item">dropdown-menu 2</a>
-                                <a href="#" class="dropdown-item">dropdown-menu 3</a>
-                                <a href="#" class="dropdown-item">dropdown-menu 4</a>
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="how-to-use.html" class="dropdown-item">How To Use</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="blog.html" class="dropdown-item">Blog Articles</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -79,7 +98,7 @@
             </nav>
         </div>
     </div>
-    <!-- Navbar End -->
+     Navbar End -->
 
 
     <!-- Hero Start -->
@@ -88,15 +107,14 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
                     <h3 class="fw-light text-white animated slideInRight">Perfect </h3>
-                    <h1 class="display-4 text-white animated slideInRight">Hair <span class="fw-light text-dark">Fern</span> For Fern</h1>
-                    <p class="text-white mb-4 animated slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Etiam feugiat rutrum lectus, sed auctor ex malesuada id. Orci varius natoque penatibus et
-                        magnis dis parturient montes.</p>
-                    <a href="" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Shop Now</a>
-                    <a href="" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Contact Us</a>
+                    <h1 class="display-4 text-white animated slideInRight"><span class="fw-light text-dark"> </span>  </h1>
+					<p  class="display-4 text-white animated slideInRight"> <span class="fw-light text-dark"></span> </p>
+                    <p class="text-white mb-4 animated slideInRight"></p>
+                    <a href="/" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Стартовая</a>
+                    <a href="/product" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Каталог</a>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid animated pulse infinite" src="img/shampoo.png" alt="">
+                    <img class="img-fluid animated pulse infinite" src="img/start.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -105,6 +123,7 @@
 
 
     <!-- Feature Start -->
+	<!--
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-4">
@@ -135,6 +154,7 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Feature End -->
 
 
@@ -170,12 +190,13 @@
                     <div class="bg-white text-center p-4">
                         <div class="border p-4">
                             <p class="mb-2">Perfect  Fern</p>
-                            <h2 class="fw-bold text-uppercase mb-4">Price</h2>
-                            <h1 class="display-4 text-primary mb-4">$99.99</h1>
+
+                            <h1 class="display-4 text-primary mb-4">$ <?php echo (rand(10,99));?>.<?php echo (rand(10,99));?></h1>
                             <h5>Fresh Organic Fern</h5>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Etiam feugiat rutrum lectus sed auctor.</p>
-                            <div class="row g-0 cdt mb-4">
+                            <!--
+							<div class="row g-0 cdt mb-4">
                                 <div class="col-3">
                                     <h1 class="display-6" id="cdt-days"></h1>
                                 </div>
@@ -189,6 +210,7 @@
                                     <h1 class="display-6" id="cdt-seconds"></h1>
                                 </div>
                             </div>
+							-->
                             <a class="btn btn-primary py-2 px-4" href="">Заказ</a>
                         </div>
                     </div>
@@ -292,6 +314,7 @@
 
 
     <!-- How To Use Start -->
+	<!--
     <div class="container-fluid how-to-use bg-primary my-5 py-5">
         <div class="container text-white py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -327,10 +350,12 @@
             </div>
         </div>
     </div>
+	-->
     <!-- How To Use End -->
 
 
     <!-- Product Start -->
+	<!--
     <div class="container-fluid py-5">
         <div class="container">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -405,10 +430,12 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Product End -->
 
 
     <!-- Testimonial Start -->
+	<!--
     <div class="container-fluid testimonial bg-primary my-5 py-5">
         <div class="container text-white py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -441,10 +468,12 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Testimonial End -->
 
 
     <!-- Blog Start -->
+	<!--
     <div class="container-fluid py-5">
         <div class="container">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -509,9 +538,10 @@
             </div>
         </div>
     </div>
+	-->
     <!-- Blog End -->
 
-
+	@include('part.letter')
     <!-- Newsletter Start -->
 	<!--
     <div class="container-fluid newsletter bg-primary py-5 my-5">
@@ -536,7 +566,11 @@
     <!-- Newsletter End -->
 
 
-    <!-- Footer Start -->
+
+    @include('part.footer')
+
+    <!-- Footer Start 
+	
     <div class="container-fluid bg-white footer">
         <div class="container py-5">
             <div class="row g-5">
@@ -581,18 +615,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; 
-						<span class="border-bottom" href="#">
-						<span class="ml-4 text-left text-sm text-gray-500 sm:ml-0">
-							Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-						</span>
-						</span>
-						
-						
-
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
@@ -606,8 +629,8 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
 
+    Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -626,5 +649,3 @@
 </body>
 
 </html>
-
-
